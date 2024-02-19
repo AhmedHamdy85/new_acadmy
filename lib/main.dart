@@ -3,8 +3,6 @@ import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:new_acadmy/Features/login/view/logInScreen.dart';
 import 'package:new_acadmy/generated/l10n.dart';
 
-import 'Features/Home/presentation/views/home_page.dart';
-
 void main() {
   runApp(const MyApp());
 }

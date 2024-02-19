@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:new_acadmy/Features/login/view/widgets/dviderwidget.dart';
 import 'package:new_acadmy/core/defoltcheckbox.dart';
 import 'package:new_acadmy/core/defolttextformfiled.dart';
 import 'package:solar/solar.dart';
@@ -63,11 +64,12 @@ class LogInForm extends StatelessWidget {
                   ),
                 ],
               ),
-              DefoltTextFormFiled(
+              DividerWidget(width: localWidth * 0.35),
+              const DefoltTextFormFiled(
                   prefixIcon: SolarBold.letter,
                   inputTitel: 'E-mail',
                   hintText: 'E-mail@gmail.com'),
-              DefoltTextFormFiled(
+              const DefoltTextFormFiled(
                   prefixIcon: SolarBold.lock_keyhole_minimalistic,
                   suffixIcon: Icons.remove_red_eye_outlined,
                   inputTitel: 'Password',
